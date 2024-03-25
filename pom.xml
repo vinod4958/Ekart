@@ -129,7 +129,7 @@
   </snapshots>
 </repository>
     </repositories> 
-<distributionManagement>
+<!-- <distributionManagement>
     <repository>
   <id>azure-artifacts</id>
   <url>https://pkgs.dev.azure.com/vinc14/pipelines/_packaging/azure-artifacts/maven/v1</url>
@@ -140,7 +140,7 @@
     <enabled>true</enabled>
   </snapshots>
 </repository>
-</distributionManagement>
+</distributionManagement> -->
 
     <build>
         <plugins>
