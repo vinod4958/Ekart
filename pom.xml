@@ -118,7 +118,7 @@
         </dependency>
     </dependencies>
 <repositories>
-        <repository>
+<repository>
   <id>azure-artifacts</id>
   <url>https://pkgs.dev.azure.com/vinc14/pipelines/_packaging/azure-artifacts/maven/v1</url>
   <releases>
@@ -128,8 +128,9 @@
     <enabled>true</enabled>
   </snapshots>
 </repository>
-    </repositories> 
-<!-- <distributionManagement>
+<repositories>
+
+<distributionManagement>
     <repository>
   <id>azure-artifacts</id>
   <url>https://pkgs.dev.azure.com/vinc14/pipelines/_packaging/azure-artifacts/maven/v1</url>
@@ -140,7 +141,7 @@
     <enabled>true</enabled>
   </snapshots>
 </repository>
-</distributionManagement> -->
+</distributionManagement>
 
     <build>
         <plugins>
