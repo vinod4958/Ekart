@@ -117,32 +117,7 @@
             <version>2.1.4</version>
         </dependency>
     </dependencies>
-<repositories>
-<repository>
-  <id>azure-artifacts</id>
-  <url>https://pkgs.dev.azure.com/vinc14/pipelines/_packaging/azure-artifacts/maven/v1</url>
-  <releases>
-    <enabled>true</enabled>
-  </releases>
-  <snapshots>
-    <enabled>true</enabled>
-  </snapshots>
-</repository>
-</repositories>
-
-<distributionManagement>
-    <repository>
-  <id>azure-artifacts</id>
-  <url>https://pkgs.dev.azure.com/vinc14/pipelines/_packaging/azure-artifacts/maven/v1</url>
-  <releases>
-    <enabled>true</enabled>
-  </releases>
-  <snapshots>
-    <enabled>true</enabled>
-  </snapshots>
-</repository>
-</distributionManagement>
-
+         
     <build>
         <plugins>
             <plugin>
