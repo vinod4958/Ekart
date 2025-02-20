@@ -13,6 +13,7 @@ Users can shop for products. Each user has his own shopping cart (session functi
 Checkout is transactional.
 
 ## Configuration
+###
 
 ### Configuration Files
 
