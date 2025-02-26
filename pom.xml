@@ -118,21 +118,21 @@
         </dependency>
     </dependencies>
 <repositories>
- <repository>
-  <id>maven</id>
-  <url>https://pkgs.dev.azure.com/vinc14/pipelines/_packaging/maven/maven/v1</url>
+<repository>
+  <id>Maven</id>
+  <url>https://pkgs.dev.azure.com/Vincdevops15/Vinc15/_packaging/Maven/maven/v1</url>
   <releases>
     <enabled>true</enabled>
   </releases>
   <snapshots>
     <enabled>true</enabled>
   </snapshots>
-</repository>        
+</repository>      
 </repositories>
 <distributionManagement>
 <repository>
-  <id>maven</id>
-  <url>https://pkgs.dev.azure.com/vinc14/pipelines/_packaging/maven/maven/v1</url>
+  <id>Maven</id>
+  <url>https://pkgs.dev.azure.com/Vincdevops15/Vinc15/_packaging/Maven/maven/v1</url>
   <releases>
     <enabled>true</enabled>
   </releases>
